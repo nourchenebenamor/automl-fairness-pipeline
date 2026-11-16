@@ -1,0 +1,17 @@
+certifi==2026.6.17
+cloudpickle==3.1.2
+fairlearn==0.14.0
+joblib==1.5.3
+loky==3.5.6
+narwhals==2.22.1
+numpy==1.26.4
+pandas==3.0.3
+# Editable install with no version control (pipegenie==0.8.1)
+-e c:\fairlearn\pipegenie-main
+python-dateutil==2.9.0.post0
+scikit-learn==1.9.0
+scipy==1.17.1
+six==1.17.0
+threadpoolctl==3.6.0
+tzdata==2026.2
+ucimlrepo==0.0.7

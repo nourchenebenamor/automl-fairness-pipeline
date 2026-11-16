@@ -1,0 +1,63 @@
+0: Pipeline(
+	0: MaxAbsScaler()
+	1: AdaBoostRegressor(estimator=DecisionTreeRegressor(criterion='poisson',
+                                                  max_depth=7,
+                                                  max_features=0.887468832118298,
+                                                  min_samples_leaf=5,
+                                                  min_samples_split=14,
+                                                  random_state=9),
+                  learning_rate=0.8419821519142376, n_estimators=99,
+                  random_state=9)
+) -> Fitness: 0.1331409954997985
+
+1: Pipeline(
+	0: SelectFwe(alpha=0.042447512403587934)
+	1: VarianceThreshold()
+	2: MaxAbsScaler()
+	3: AdaBoostRegressor(estimator=DecisionTreeRegressor(max_depth=13,
+                                                  max_features=0.9804879933715016,
+                                                  min_samples_leaf=7,
+                                                  min_samples_split=19,
+                                                  random_state=9),
+                  learning_rate=1.6863438218404667, n_estimators=96,
+                  random_state=9)
+) -> Fitness: 0.13382765373538993
+
+2: Pipeline(
+	0: MinMaxScaler()
+	1: MaxAbsScaler()
+	2: AdaBoostRegressor(estimator=DecisionTreeRegressor(max_depth=13,
+                                                  max_features=0.9804879933715016,
+                                                  min_samples_leaf=7,
+                                                  min_samples_split=19,
+                                                  random_state=9),
+                  learning_rate=1.0356364174403558, n_estimators=96,
+                  random_state=9)
+) -> Fitness: 0.1339926088963191
+
+3: Pipeline(
+	0: MinMaxScaler()
+	1: AdaBoostRegressor(estimator=DecisionTreeRegressor(max_depth=13,
+                                                  max_features=0.9804879933715016,
+                                                  min_samples_leaf=7,
+                                                  min_samples_split=19,
+                                                  random_state=9),
+                  learning_rate=1.6863438218404667, n_estimators=96,
+                  random_state=9)
+) -> Fitness: 0.13402516583057172
+
+4: Pipeline(
+	0: MinMaxScaler()
+	1: MaxAbsScaler()
+	2: AdaBoostRegressor(estimator=DecisionTreeRegressor(max_depth=13,
+                                                  max_features=0.9804879933715016,
+                                                  min_samples_leaf=7,
+                                                  min_samples_split=19,
+                                                  random_state=9),
+                  learning_rate=1.6863438218404667, n_estimators=96,
+                  random_state=9)
+) -> Fitness: 0.13402516583057172
+
+Ensemble fitness: 0.13235267748720686
+Weights: [1.0, 0.9948690856005805, 0.9936443255823195, 0.9934029529059418, 0.9934029529059418]
+Prediction: [0.20971402 0.09159968 0.12959436 ... 0.47113875 0.08097437 0.18625508]

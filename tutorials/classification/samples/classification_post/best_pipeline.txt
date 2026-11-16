@@ -1,0 +1,3 @@
+minMaxScaler();extraTreesClassifier(52,'gini','sqrt',11,8,False,'balanced')
+Fitness: 0.722235629949114
+Prediction: [0 0 0 ... 0 0 0]
